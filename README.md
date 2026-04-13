@@ -168,16 +168,6 @@ Example:
 
 ---
 
-## 🚀 Future Work
-
-* Multi-surface aerodynamics (wing + tail)
-* Engine and thrust modeling
-* Mission analysis
-* Optimization loops
-* CPACS write-back
-
----
-
 ## 📜 License
 
 GPL-3.0 license
