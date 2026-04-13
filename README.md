@@ -68,8 +68,8 @@ These must be installed manually.
 
 Download precompiled binaries from:
 
-* https://dlr-sc.github.io/tixi/
-* https://dlr-sc.github.io/tigl/
+* [https://dlr-sc.github.io/tixi/](https://github.com/DLR-SC/tixi)
+* [https://dlr-sc.github.io/tigl/](https://github.com/DLR-SC/tigl)
 
 Install or extract them to a directory, e.g.:
 
