@@ -133,7 +133,7 @@ This:
 Run the full pipeline:
 
 ```bash
-python run.py
+python AeroFrame.py
 ```
 
 ---
