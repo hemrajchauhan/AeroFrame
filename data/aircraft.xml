@@ -525,11 +525,11 @@
       <fuselageProfiles>
         <fuselageProfile uID="CircleProfile">
           <name>Circle</name>
-          <pointList>
-            <x mapType="vector">0;0;0;0</x>
-            <y mapType="vector">1;0;-1;0</y>
-            <z mapType="vector">0;1;0;-1</z>
-          </pointList>
+            <pointList>
+              <x mapType="vector">0;0;0;0;0</x>
+              <y mapType="vector">1;0;-1;0;1</y>
+              <z mapType="vector">0;1;0;-1;0</z>
+            </pointList>
         </fuselageProfile>
       </fuselageProfiles>
     </profiles>
