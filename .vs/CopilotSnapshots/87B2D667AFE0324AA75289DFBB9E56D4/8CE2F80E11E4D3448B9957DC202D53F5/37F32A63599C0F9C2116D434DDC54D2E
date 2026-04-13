@@ -1,0 +1,40 @@
+﻿# ---- Step 1: Setup environment ----
+from utils.environment import setup_environment
+setup_environment()
+
+# ---- Step 2: Imports (AFTER setup) ----
+from tixi3wrapper import Tixi3
+from tigl3.tigl3wrapper import Tigl3
+
+print("Imports OK")
+
+# ---- Step 3: Initialize ----
+tixi = Tixi3()
+tigl = Tigl3()
+
+print("Instances OK")
+
+# ---- Step 4: Load CPACS file ----
+cpacs_path = r"C:\Users\hemra\source\repos\Libs\TIGL-3.4.1\share\doc\tigl3\examples\simpletest.cpacs.xml"
+
+tixi.open(cpacs_path)
+print("CPACS loaded")
+
+# ---- Step 5: Get correct handle ----
+handle = tixi._handle.value   # ✅ CORRECT FIX
+
+# ---- Step 6: Initialize TiGL ----
+tigl.openCPACSConfiguration(handle, "")
+print("TiGL configuration loaded")
+
+# ---- Step 7: Geometry extraction ----
+n_wings = tigl.getWingCount()
+print("Number of wings:", n_wings)
+
+area = tigl.wingGetSurfaceArea(1)
+wing_uid = tigl.wingGetUID(1)
+span = tigl.wingGetSpan(wing_uid)
+
+# ---- Step 8: Output ----
+print("Wing area:", area)
+print("Wing span:", span)

@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\geometry\\tigl_geometry.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:geometry\\tigl_geometry.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\interfaces\\cpacs.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:interfaces\\cpacs.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\utils\\environment.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:utils\\environment.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\core\\pipeline.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:core\\pipeline.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\performance.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:modules\\performance.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\core\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:core\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\AeroFrame.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:AeroFrame.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\utils\\numerics.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:utils\\numerics.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\weight.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:modules\\weight.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\aerodynamics.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BAAD1C0A-1828-459A-BD15-EE7D556015B9}|AeroFrame.pyproj|solutionrelative:modules\\aerodynamics.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cpacs.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\interfaces\\cpacs.py",
+              "RelativeDocumentMoniker": "interfaces\\cpacs.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\interfaces\\cpacs.py",
+              "RelativeToolTip": "interfaces\\cpacs.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-13T19:14:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pipeline.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\core\\pipeline.py",
+              "RelativeDocumentMoniker": "core\\pipeline.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\core\\pipeline.py",
+              "RelativeToolTip": "core\\pipeline.py",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwHEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T21:11:01.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "performance.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\performance.py",
+              "RelativeDocumentMoniker": "modules\\performance.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\performance.py",
+              "RelativeToolTip": "modules\\performance.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T21:08:25.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "weight.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\weight.py",
+              "RelativeDocumentMoniker": "modules\\weight.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\weight.py",
+              "RelativeToolTip": "modules\\weight.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T21:06:42.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "aerodynamics.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\aerodynamics.py",
+              "RelativeDocumentMoniker": "modules\\aerodynamics.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\modules\\aerodynamics.py",
+              "RelativeToolTip": "modules\\aerodynamics.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T21:04:29.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "numerics.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\utils\\numerics.py",
+              "RelativeDocumentMoniker": "utils\\numerics.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\utils\\numerics.py",
+              "RelativeToolTip": "utils\\numerics.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T21:02:25.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tigl_geometry.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\geometry\\tigl_geometry.py",
+              "RelativeDocumentMoniker": "geometry\\tigl_geometry.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\geometry\\tigl_geometry.py",
+              "RelativeToolTip": "geometry\\tigl_geometry.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T20:51:57.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "environment.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\utils\\environment.py",
+              "RelativeDocumentMoniker": "utils\\environment.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\utils\\environment.py",
+              "RelativeToolTip": "utils\\environment.py",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-12T20:26:55.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\core\\models.py",
+              "RelativeDocumentMoniker": "core\\models.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\core\\models.py",
+              "RelativeToolTip": "core\\models.py",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-10T15:53:57.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AeroFrame.py",
+              "DocumentMoniker": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\AeroFrame.py",
+              "RelativeDocumentMoniker": "AeroFrame.py",
+              "ToolTip": "C:\\Users\\hemra\\source\\repos\\AeroFrame\\AeroFrame.py",
+              "RelativeToolTip": "AeroFrame.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2026-04-10T14:47:33.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
