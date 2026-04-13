@@ -15,7 +15,6 @@ It follows a **Model-Based Systems Engineering (MBSE)** approach to enable clean
   * Weight estimation
   * Performance (Breguet range)
 * Clean architecture with strong separation of concerns
-* Extensible for research and engineering workflows
 
 ---
 
@@ -24,13 +23,6 @@ It follows a **Model-Based Systems Engineering (MBSE)** approach to enable clean
 ```
 CPACS → Reader → Geometry → Modules → Results
 ```
-
-### Modules:
-
-* **Geometry**: Wing properties via TiGL
-* **Aerodynamics**: Lift, drag, L/D
-* **Weight**: Parametric or CPACS-driven
-* **Performance**: Range estimation
 
 ---
 
@@ -53,24 +45,92 @@ AeroFrame/
 
 ## ⚙️ Requirements
 
-* Python 3.10+
-* NumPy
-* Numba
-* TiXI 3
-* TiGL 3
+### Python Dependencies
+
+```bash
+pip install numpy numba
+```
 
 ---
 
-## ▶️ Usage
+## 🧩 External Dependencies (Required)
 
-1. Configure environment:
+AeroFrame depends on:
+
+* TiXI 3 (CPACS XML handling)
+* TiGL 3 (geometry engine)
+
+These must be installed manually.
+
+---
+
+### 🔽 Step 1 — Download Libraries
+
+Download precompiled binaries from:
+
+* https://dlr-sc.github.io/tixi/
+* https://dlr-sc.github.io/tigl/
+
+Install or extract them to a directory, e.g.:
+
+```
+C:\libs\
+  ├── TIXI-3.x.x
+  └── TIGL-3.x.x
+```
+
+---
+
+### 📁 Step 2 — Set Library Location
+
+You have two options:
+
+---
+
+#### Option A (Recommended): Environment Variable
+
+Set:
+
+```bash
+AEROFRAME_LIBS=C:\libs
+```
+
+---
+
+#### Option B: Modify Default Path
+
+Edit in:
+
+```
+utils/environment.py
+```
+
+```python
+base = r"C:\path\to\your\libs"
+```
+
+---
+
+### ⚙️ Step 3 — Runtime Setup
+
+AeroFrame automatically configures paths via:
 
 ```python
 from utils.environment import setup_environment
 setup_environment()
 ```
 
-2. Run analysis:
+This:
+
+* adds DLL paths
+* patches library resolution
+* registers Python bindings
+
+---
+
+## ▶️ Usage
+
+Run the full pipeline:
 
 ```bash
 python run.py
@@ -82,10 +142,19 @@ python run.py
 
 AeroFrame uses CPACS as the **single source of truth**.
 
-Custom analysis inputs are stored under:
+Custom analysis inputs are defined in:
 
 ```xml
-/toolspecific/aeroFrame/
+/vehicles/aircraft/model/toolspecific/aeroFrame/
+```
+
+Example:
+
+```xml
+<aerodynamics>
+  <parasiteDragCoefficient>0.025</parasiteDragCoefficient>
+  <oswaldEfficiency>0.78</oswaldEfficiency>
+</aerodynamics>
 ```
 
 ---
@@ -94,11 +163,21 @@ Custom analysis inputs are stored under:
 
 * Modular and extensible
 * No tight coupling between subsystems
-* CPACS-driven data flow
-* Clean separation of physics and IO
+* CPACS-driven workflow
+* Separation of physics and IO
+
+---
+
+## 🚀 Future Work
+
+* Multi-surface aerodynamics (wing + tail)
+* Engine and thrust modeling
+* Mission analysis
+* Optimization loops
+* CPACS write-back
 
 ---
 
 ## 📜 License
 
-GNU GENERAL PUBLIC LICENSE
+GPL-3.0 license
